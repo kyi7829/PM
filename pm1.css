@@ -1,0 +1,51 @@
+body{
+    margin-left:0;
+    margin-right:0;
+}
+
+.top1{
+    color:steelblue;
+    font-size:50px;
+    text-align:center;
+    
+
+}
+
+.top2{
+    color:white;
+    font-size:25px;
+    text-align:center;
+    background-color:#5858FA;
+}
+
+#cu{
+    color:#4B088A;
+}
+
+#gs{
+    color:#0000FF;
+}
+
+#gs2{
+    color:#DF0101;
+}
+
+.em{
+    color:#FF8000;
+}
+
+#em2{
+    color:#424242;
+}
+
+#mi{
+    color:#0B0B61;
+}
+
+#sev{
+    color:#FF4000;
+}
+
+#sev2{
+    color:#0B610B;
+}
