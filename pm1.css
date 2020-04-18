@@ -14,9 +14,25 @@ body{
 .top2{
     color:white;
     font-size:25px;
-    text-align:center;
     background-color:#5858FA;
     margin-bottom: 0;
+}
+nav{
+    height: 50px;
+    
+}
+ul{
+    text-align: center;
+    
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 50px;
+    
+}
+a{
+    text-decoration: none;
 }
 
 #cu{
@@ -51,6 +67,7 @@ body{
     color:#0B610B;
 }
 .article{
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
 
