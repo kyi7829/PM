@@ -7,23 +7,16 @@ body{
     color:steelblue;
     font-size:50px;
     text-align:center;
-    
-
 }
 
 .top2{
-    color:white;
     font-size:25px;
     background-color:#5858FA;
     margin-bottom: 0;
 }
-nav{
-    height: 50px;
-    
-}
 ul{
     text-align: center;
-    
+    margin: 0;
 }
 li{
     display: inline-block;
@@ -33,6 +26,9 @@ li{
 }
 a{
     text-decoration: none;
+}
+.whitetext{
+    color: white;
 }
 
 #cu{
@@ -73,8 +69,39 @@ a{
 
 }
 aside{
-    
+    background-color: grey;
 }
 .join{
     margin: 0;
+}
+.search-menu{
+    float: right;
+    margin-right: 30px;
+}
+th{
+    float: right;
+}
+.food{
+    clear: both;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.foodImg{
+    border: gray 1px solid;
+}
+.foodEX{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: gray 1px solid;
+}
+.num{
+    float:left;
+    border: 2px solid black;
+}
+.foodLogo{
+    float: right;
+    color:purple
+}
+.foodPrice{
+    border: gray 1px solid;
 }
