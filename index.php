@@ -1,3 +1,7 @@
+<?php
+session_start();
+var_dump($_SESSION['id']);
+?>
 <!DOCTYPE html>
 <html lang="kr">
 <head>
@@ -53,9 +57,9 @@
     
        <aside>
           <div class="login">
-             <form action="login_process" method="POST">
-                <input type="text" placeholder="아이디">
-                <input type="password" placeholder="비밀번호">
+             <form action="login_process.php" method="POST">
+                <input type="text" placeholder="아이디" name="id">
+                <input type="password" placeholder="비밀번호" name="pw">
                 <input type="submit" value="로그인">
              </form>
              <p class="join"><a href="join.php">회원가입</a></p>

@@ -11,8 +11,8 @@
         <p><input type="text" placeholder="ID" name="id"></p>
         <p><input type="password" placeholder="PW" name="pw"></p>
         <p><input type="text" placeholder="Nickname" name="nickname"></p>
-        <p><input type="radio" name="sex" vlaue="man">남자<input type="radio" name="sex" value="woman">여자</p>
-        <input type="submit" vlaue="회원가입">
+        <p><input type="radio" name="sex" value="man">남자<input type="radio" name="sex" value="woman">여자</p>
+        <input type="submit" value="회원가입">
     </form>
     
 </body>
