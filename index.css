@@ -9,6 +9,14 @@ body{
     text-align:center;
 }
 
+.join_top1{
+    color:steelblue;
+    font-size:50px;
+    text-align:center;
+    border-bottom:#5858FA 30px solid;
+    padding-bottom: 30px;
+}
+
 .top2{
     font-size:25px;
     background-color:#5858FA;
@@ -104,4 +112,25 @@ th{
 }
 .foodPrice{
     border: gray 1px solid;
+}
+
+.section{
+    
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.section_1{
+    border: gray 1px solid;
+    padding-left: 40px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+#kbjb{
+    color:steelblue;
+    border-bottom: #5858FA 2px solid;
+    padding-bottom: 10px;
+    
+    
 }
