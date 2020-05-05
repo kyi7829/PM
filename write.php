@@ -18,7 +18,10 @@ function getNickname(){
 <?php require_once 'piece/top.php' // 메뉴 정리 ?>
   <div class="article">
   <aside>ad</aside>
-<?php require_once 'piece/section.php' // 가운데 메뉴 및 목록 정리 ?>
+        <section>
+            <input type="text">
+            
+        </section>
        <aside>
        <?php if(!isset($_SESSION['id'])): ?>
          <form action="login_process.php" method="POST">

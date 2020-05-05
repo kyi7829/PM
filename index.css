@@ -105,3 +105,6 @@ th{
 .foodPrice{
     border: gray 1px solid;
 }
+.writing{
+    float:right;
+}
