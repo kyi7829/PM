@@ -8,6 +8,14 @@ function getNickname(){
    $row = mysqli_fetch_assoc($result);
    echo $row['nickname'];
 }
+function getfood(){
+   $conn = mysqli_connect('127.0.0.1','root','123456','store') or die("fail");
+   $sql = "SELECT * FROM foodkinds";
+   $result = mysqli_query($conn,$sql);
+   while($row = mysqli_fetch_assoc($result)){
+      echo $row['orderNum'];
+   }
+}
 
 ?>
 <!DOCTYPE html>
@@ -37,6 +45,6 @@ function getNickname(){
           ad
        </aside>
   </div>
-  <footer></footer>
+  <footer><?= getfood() ?></footer>
 </body>
 </html>
