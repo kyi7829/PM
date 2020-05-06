@@ -49,7 +49,7 @@ if ($uploadOk == 0) {
     if($result){
         if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
             echo "이 파일 ". basename( $_FILES["fileToUpload"]["name"]). " 업로드 완료.";
-            echo "<input type=\"text\" onclick=\"location.href='managed.php'\" value=\"돌아가기\">"
+            echo "<input type=\"button\" onclick=\"location.href='manage.php'\" value=\"돌아가기\">";
         } else {
             echo "죄송합니다, 파일을 업로드하는 동안 오류가 발생함.";
         }

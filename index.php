@@ -13,7 +13,19 @@ function getfood(){
    $sql = "SELECT * FROM foodkinds";
    $result = mysqli_query($conn,$sql);
    while($row = mysqli_fetch_assoc($result)){
-      echo $row['orderNum'];
+      echo "<div class=\"food\"><div class=\"foodImg\"><img src=\"{$row['imgurl']}\" height=\"150px\" width=\"150px\"></div>
+      <div class=\"foodEX\">
+         <div class=\"foodInfo\">
+            <div class=\"num\" >{$row['orderNum']}</div>
+            <div class=\"foodLogo\">{$row['foodBrand']}</div>
+            <div class=\"foodName\"><b>{$row['foodName']}</b></div>
+         </div>
+         <div class=\"foodExplain\">{$row['foodExplain']}</div>
+         <div class=\"tag\">{$row['foodTag']}</div>
+         <div class=\"start\">☆☆☆☆☆</div>
+      </div>
+      <div class=\"foodPrice\">가격은 <br>{$row['foodPrice']}</div>
+   </div>";
    }
 }
 
@@ -45,6 +57,6 @@ function getfood(){
           ad
        </aside>
   </div>
-  <footer><?= getfood() ?></footer>
+  <footer></footer>
 </body>
 </html>
