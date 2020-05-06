@@ -1,0 +1,175 @@
+body{
+    margin-left:0;
+    margin-right:0;
+}
+
+.top1{
+    color:steelblue;
+    font-size:50px;
+    text-align:center;
+}
+
+.join_top1{
+    color:steelblue;
+    font-size:50px;
+    text-align:center;
+    border-bottom:#5858FA 30px solid;
+    padding-bottom: 30px;
+}
+.top2{
+    font-size:25px;
+    background-color:#5858FA;
+    margin-bottom: 0;
+}
+ul{
+    text-align: center;
+    margin: 0;
+    padding-top:13px; 
+    padding-bottom:13px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 50px;
+    
+}
+a{
+    text-decoration: none;
+}
+.whitetext{
+    color: white;
+}
+
+#cu{
+    color:#4B088A;
+}
+
+#gs{
+    color:#0000FF;
+}
+
+#gs2{
+    color:#DF0101;
+}
+
+.em{
+    color:#FF8000;
+}
+
+#em2{
+    color:#424242;
+}
+
+#mi{
+    color:#0B0B61;
+}
+
+#sev{
+    color:#FF4000;
+}
+
+#sev2{
+    color:#0B610B;
+}
+.article{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+
+}
+
+.join{
+    margin: 0;
+}
+.best-menu{
+    float: right;
+    margin-right: 30px;
+}
+th{
+    float: right;
+}
+.food{
+    clear: both;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.foodImg{
+    border: gray 1px solid;
+}
+.foodEX{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: gray 1px solid;
+}
+.num{
+    float:left;
+    border: 2px solid black;
+}
+.foodLogo{
+    float: right;
+    color:purple
+}
+.foodPrice{
+    border: gray 1px solid;
+}
+.writing{
+    float:right;
+}
+
+.section{
+
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.section_1{
+    border: gray 1px solid;
+    padding-left: 40px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+#kbjb{
+    color:steelblue;
+    border-bottom: #5858FA 2px solid;
+    padding-bottom: 10px;
+
+} 
+
+.L-aside{
+    display:grid;
+    grid-template-rows: 200px 500px;
+}
+
+.L-aside2{
+    background-color: gray;
+    
+
+}
+
+.R-aside{
+    display:grid;
+    grid-template-rows: 200px 500px;
+}
+
+.R-aside1{
+    border:rgb(3, 45, 51) 1px solid;
+    padding-top:5px;
+    padding-left:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.R-aside2{
+    background-color: gray;
+
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.ablack{
+   color:black;
+}
